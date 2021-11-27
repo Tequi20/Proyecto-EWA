@@ -1,0 +1,133 @@
+.seccion1__head--margin1 {
+  margin-left: 25px; }
+
+.seccion1__span--claseTexto {
+  text-transform: uppercase;
+  background-color: mistyrose;
+  color: indigo;
+  font-size: 30px; }
+
+.seccion1__head--margin2 {
+  text-align: right;
+  margin-right: 40px; }
+
+.seccion1__head--text {
+  text-align: center;
+  /*margin-top: 50px;*/
+  text-decoration: underline; }
+
+.seccion2__ul--margin li {
+  /*margin:3px;*/
+  margin-bottom: 35px; }
+
+.seccion2__p--texto {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: blueviolet;
+  /*color:ivory;*/
+  font-size: 24px; }
+
+.seccion3__div--textoP {
+  font-size: 20px; }
+
+.seccion__tarjetas--fuente {
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  font-size: 18px; }
+
+footer {
+  height: 250px;
+  width: 100%;
+  /*border: 3px solid yellow;*/
+  border-top-color: thistle;
+  border-top-style: outset;
+  display: flex;
+  flex-direction: row;
+  border-left: 3px solid #6b5a6b;
+  border-right: 3px solid #6b5a6b;
+  background: linear-gradient(to bottom, #e7b7e7, #6b5a6b); }
+
+.footer__div--estilo1 {
+  height: 100%;
+  width: 23%;
+  /*border:3px solid white;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.footer__img--display {
+  width: 30px;
+  display: inline-block; }
+
+.footer__span--estilo1 {
+  margin-left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: ghostwhite;
+  /*font-weight: bold;*/ }
+
+.footer__div--posicion1 {
+  order: 4; }
+
+.footer__div--posicion2 {
+  order: 3; }
+
+.footer__div--posicion3 {
+  order: 5; }
+
+.footer__div--posicion4 {
+  order: -1; }
+
+.footer__div--estilo2 {
+  height: 150px;
+  width: 12.5%;
+  /*border:3px solid white;*/ }
+
+.footer__div--estilo3 {
+  height: 100%;
+  width: 25%;
+  /*border:3px solid white;*/
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__div--estilo3 p {
+    /*border: 3px solid white;*/
+    text-align: center;
+    font-family: 'festive';
+    font-size: 45px;
+    color: ghostwhite;
+    text-decoration: underline; }
+
+.footer__div--estilo4 {
+  height: 150px;
+  width: 12.5%;
+  /*border:3px solid white;*/ }
+
+.footer__div--estilo5 {
+  /*height: 100%;*/
+  width: 27%;
+  /*border:3px solid white;*/
+  background-image: url(../images/linda-foto.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right; }
+
+.seccion1__div--imagen {
+  background-image: url(../images/fondo-venta-ewa.jpg); }
+
+/*Operaciones*/
+.main__h1--estiloTexto {
+  display: block;
+  position: relative;
+  bottom: 15px;
+  text-decoration: underline;
+  color: #50405f;
+  font-size: 40px;
+  text-align: left; }
+
+.main__div--imagen {
+  background-color: #dd8cca; }
+
+.main__div--imagen2 {
+  background-color: #eec2e4; }

@@ -1,0 +1,375 @@
+.tituloTabla {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: underline;
+
+}
+
+.vinieta {
+        list-style:none
+}
+
+.titulo1 {
+        font-size: 40px;
+        color: blue;
+        text-transform: uppercase;
+        font-family: 'PT Sans', sans-serif;
+        text-decoration: underline;
+        letter-spacing: 10px;
+}
+
+.parrafo1 {
+        font-style: italic;
+        line-height: 1.5;
+}
+
+.estiloVinieta1 {
+        list-style-type:disc;
+        text-transform: capitalize;
+        margin: 5px;
+}
+
+.estiloVinieta2 {
+        list-style-type:none;
+}
+
+.lista2 {
+        list-style: square;
+        text-transform: lowercase;
+        margin:0px;
+        }
+
+.lista1 {
+        /*paddin-left:15px;*/
+        color:white;
+}
+
+.colorAgrande {
+        color:black;
+}
+
+.imagenFondo {
+        background-image: url(../images/wall.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        background-position-x: center;
+        background-position-y: center;
+}
+
+.imagenFondo2 {
+        background-image: url(../images/fondo\ 2\ maya-maceka-yW-Qgw_IJXg-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position-x: center;
+        /*background: linear-gradient(to right, rgba(73, 56, 56, 0.651), rgb(95, 66, 66));*/
+        
+}
+
+.imagen1 {
+        width:160px;
+}
+
+.imagenDiv1 {
+        width:150px;
+        margin-left: 20px;
+}
+
+.imagenTrabajo {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transition: all 3s;
+}
+
+.imagenTrabajo:hover {
+        width:100%;
+}
+
+.barraMenu li {
+        display:inline-block;
+        /*padding-right: 10px;*/
+        padding-left: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /*border: 2px solid red;   */
+        }
+
+.elementosLista li a{
+        text-decoration: none;
+        color:white;
+        /*border: 2px solid red;*/
+        margin-right: 20px;
+        
+        
+}
+
+.posicionLista {
+        float:right;
+}
+
+.alinearImagen {
+        display: inline-block;
+        float: left;
+}
+
+.navegador {
+        display: inline-block;
+        /*border:2px solid black;*/
+        
+}
+
+.audio {
+        display:inline-block;
+        float: right;
+        margin-top: 15px;
+}
+
+.head1 {    
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /*border: 2px solid yellow;*/
+        background-color: #220442;
+        color:beige;
+        height:50px;  
+}
+
+.head2 {
+        text-align: center;
+        /*display:inline-block;
+        position: relative;*/
+        top:-40px;
+        width: 100%;
+        background-color:rgb(216, 189, 189);
+        color:rgb(82, 41, 82);
+        /*border: greenyellow solid 2px;*/
+        font-size: 20px;
+}
+
+.header {
+        /*background-color:rgb(161, 144, 235);*/
+        border-top-style: initial;
+        border-top-color:thistle;
+        border-bottom-style: inset;
+        border-bottom-color: thistle;
+        height: 60px;
+        background:linear-gradient(to top, rgb(202, 168, 202), rgb(129, 109, 129));
+        
+}
+
+.divMain1 {
+        
+        display:flex;
+        /*flex-wrap:wrap-reverse;*/
+        justify-content: center;
+        
+}
+
+.imagen10 {
+        background-image: url(../images/fondo\ venta\ ewa.jpg);
+        
+        
+}
+
+.imagen11 {
+        background-image: url(../images/fondo\ 2\ maya-maceka-yW-Qgw_IJXg-unsplash.jpg);
+
+}
+
+.divMain2 {
+        width:100%; 
+        height:500px; 
+        /*border:2px solid gainsboro;*/
+        margin-top: 150px;
+}
+
+.styleHtml {
+        background-color: coral;
+}
+
+.subDiv1 {
+        /*border: solid white 2px;*/
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        
+}
+
+.subDivb {
+        display: flex;     
+
+}
+
+.subDiv2 {
+        width: 300px;      
+        border: 1px solid rgb(119, 91, 113);
+        display:flex;
+        flex-direction: column;
+        align-content:center; 
+        background-color: rgb(155, 108, 145); 
+}
+
+
+.ulDesple ul {
+        list-style:none;
+        font-size: 0;
+}
+
+.liDesple li {
+        display: inline-block;
+        width:25%;
+        position: relative;
+        font-size: 14px;
+}
+
+ul ul {
+        position: absolute;
+        display: none;
+}
+
+ul ul li {
+        display: block;
+}
+
+ul li:hover ul {
+        display:block;
+}
+
+#grilla {
+        display:grid;
+        grid-template-areas: 
+        "video titulo"
+        "video detalle";
+        grid-template-rows: 15% auto;
+        grid-template-columns: 39.5% 59.5%;
+        grid-column-gap: 50px;
+        /*grid-row-gap: 10px;*/
+        height:400px;
+        width:80%;
+        margin:0;
+        /*border:2px solid black;*/
+        /*justify-content: center;*/
+}
+
+#grilla1 {
+        display:grid;
+        grid-template-areas: 
+        "imagen1 espacio1 menu1";
+        grid-template-rows: 60px;
+        grid-template-columns: 15% 47% auto;
+        /*grid-column-gap:10px;*/
+        /*grid-row-gap: 10px;*/
+        height:auto;
+        width:100%;
+        /*margin:0;*/
+        /*border:2px solid rgb(219, 26, 26);*/
+        
+}
+
+
+/*section#imagen1 {
+        grid-area: imagen1;
+}*/
+
+.imagenMain {
+        background-image: url(../images/logo\ Nuevo.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position-x: left;
+}
+
+/*section#espacio1 {
+        grid-area: espacio1;
+}*/
+
+section#menu1 {
+        grid-area: menu1;
+}
+
+/*.borderMain {
+        border:2px solid black;
+}*/
+
+/*.border {
+        border:1px solid black;
+}*/
+
+section#video {
+        grid-area: video;
+}
+
+section#titulo {
+        grid-area: titulo;
+}
+
+section#detalle {
+        grid-area: detalle;
+}
+
+section#espacio {
+        grid-area: espacio;
+}
+
+section#imagen {
+        grid-area: imagen;
+}
+
+.hijos {
+        border:1px solid black;
+}
+
+.imagenBack {
+        background-image: url(../images/new_teacher.jpeg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+}
+
+.imagenBack2 {
+        background-image: url(../images/guarda\ con\ palabras.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        /*background-position-y: center;
+        background-position-x: center;*/
+        width:100%;
+        
+        
+}
+
+.divContenedor {
+        /*border: 2px solid yellow;*/
+        width:100%;
+        height: 300px;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 100px;
+}
+
+.cambioColor li:hover{
+        color: rgb(33, 39, 39) !important;
+        background-color: rgba(82, 66, 138, 0.836) !important;
+        
+        
+}
+
+.colorFuente {
+        color: white;
+}
+
+.trabajo {
+        background-image: url(../images/reunion\ de\ trabajo.jpg);
+}
+
+.tituloLi {
+        font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+                .footer {
+                        display: none;
+                }
+}
+
+
