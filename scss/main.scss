@@ -139,6 +139,10 @@ $espacioLetras: 24px;
             justify-content: center;
         }
 
+        .margin__imagen--frase {
+            margin-top: -20px;
+        }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -151,6 +155,10 @@ $espacioLetras: 24px;
 
     .alineacionCol3 {
         justify-content: right;
+    }
+    
+    .margin__imagen--frase {
+        margin-top: -20px;
     }
 
 }
@@ -197,6 +205,10 @@ $espacioLetras: 24px;
                 
     }
 
+    .margin__imagen--frase {
+        margin-top: -100px;
+    }
+
 }
 
 .seccion3__href--descargaZoom {
@@ -213,6 +225,10 @@ $espacioLetras: 24px;
         color:indigo;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-decoration: underline;
+}
+
+.teacher__imagen--prop {
+        width:100%;
 }
 
 
