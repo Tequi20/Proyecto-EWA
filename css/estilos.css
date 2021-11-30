@@ -366,10 +366,6 @@ section#imagen {
         font-weight: bold;
 }
 
-@media only screen and (max-width: 576px) {
-                .footer {
-                        display: none;
-                }
-}
+
 
 
