@@ -364,6 +364,11 @@ section#imagen {
         font-weight: bold;
 }
 
-
+.teacher__imagen--prop {
+        background-image:url(../images/frase\ Ani2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+}
 
 

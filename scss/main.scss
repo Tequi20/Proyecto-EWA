@@ -160,7 +160,6 @@ $espacioLetras: 24px;
     .margin__imagen--frase {
         margin-top: -20px;
     }
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -179,19 +178,17 @@ $espacioLetras: 24px;
         justify-content: center;
     }
 
-    .imagenCol {
-        display:flex;
-        flex-direction: column;
-        align-items:center;
-        width:100%;
-    }
+    /*.imagenCol {
+        width:80%;
+    }*/
+
 
     .imagenProp {
-        width: 90%;
+        margin-top: 10px;
     }
 
     .h1Prop {
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
         align-items: center;
         display: flex;
@@ -201,7 +198,7 @@ $espacioLetras: 24px;
     }
 
     .listProp {
-        font-size: 12px;
+        font-size: 14px;
                 
     }
 
@@ -218,7 +215,8 @@ $espacioLetras: 24px;
 }
 
 .teacherTabla__img--propiedades {
-        width:80%;
+        width:90%;
+        
 }
 
 .teacherTabla__h1--propiedades {
@@ -227,9 +225,6 @@ $espacioLetras: 24px;
         text-decoration: underline;
 }
 
-.teacher__imagen--prop {
-        width:100%;
-}
 
 
 
