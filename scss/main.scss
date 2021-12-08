@@ -235,6 +235,14 @@ $espacioLetras: 24px;
 
 }
 
+.mainCursos__div--estiloCaja3 {
+    background-color: rgba(83, 45, 121, 0.308);
+    /*height: 25px;*/
+    color:rgb(34, 34, 26);
+    font-size: 14px;
+
+}
+
 .mainCursos__p--estilosTitulo {
         color: white;
         font-size: 40px;
@@ -270,8 +278,20 @@ $espacioLetras: 24px;
 
 .mainCursos__summary--elementary1Desc {
     background-color: rgb(231, 135, 194);
+    font-weight: bold;
+    font-size: 14px;
 
 }
+
+.tablaFoto__ul--icono {
+    list-style-image: url(../images/pencil.png);
+}
+
+.seccionCursos__ul--icono {
+    list-style-image: url(../images/pencil2.png);
+}
+
+
 
 
 

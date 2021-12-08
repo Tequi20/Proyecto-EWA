@@ -154,6 +154,12 @@
   background-color: #552f7a;
   height: 25px; }
 
+.mainCursos__div--estiloCaja3 {
+  background-color: rgba(83, 45, 121, 0.308);
+  /*height: 25px;*/
+  color: #22221a;
+  font-size: 14px; }
+
 .mainCursos__p--estilosTitulo {
   color: white;
   font-size: 40px;
@@ -183,4 +189,12 @@
   flex-direction: row; }
 
 .mainCursos__summary--elementary1Desc {
-  background-color: #e787c2; }
+  background-color: #e787c2;
+  font-weight: bold;
+  font-size: 14px; }
+
+.tablaFoto__ul--icono {
+  list-style-image: url(../images/pencil.png); }
+
+.seccionCursos__ul--icono {
+  list-style-image: url(../images/pencil2.png); }
