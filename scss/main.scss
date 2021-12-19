@@ -283,6 +283,29 @@ $espacioLetras: 24px;
 
 }
 
+.mainTalleres__div--altura {
+    height: 35px;
+}
+
+.mainContacto__p--contactoProfesora {
+        /*text-transform: uppercase;*/
+        /*font-weight: bold;*/
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: indigo;
+        text-decoration: underline;
+}
+
+.mainContacto__p--correoMail {
+        font-weight: normal;
+        font-size: 14px;
+        color: black;
+}
+
+.mainContacto__imagen--formato {
+            width:35px;
+}
+
 .tablaFoto__ul--icono {
     list-style-image: url(../images/pencil.png);
 }
@@ -290,6 +313,8 @@ $espacioLetras: 24px;
 .seccionCursos__ul--icono {
     list-style-image: url(../images/pencil2.png);
 }
+
+
 
 
 
