@@ -123,7 +123,7 @@ $espacioLetras: 24px;
     color: black;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
         .alineacionCol1 {
             justify-content: center;
             padding-bottom: 20px;
@@ -143,6 +143,23 @@ $espacioLetras: 24px;
             margin-top: -20px;
         }
 
+        .tamanioImagen {
+            height:120px;
+            background-image: url(../images/FAQ123-modified.png);
+            background-size: contain;
+            
+        }
+
+        .espacioPreguntas2 {
+            margin-top: 20px;
+        }
+
+}
+
+@media only screen and (max-width: 575px) {
+        .alineacionImagen {
+            background-position: center;
+        }
 }
 
 @media only screen and (min-width: 768px) {
@@ -160,6 +177,27 @@ $espacioLetras: 24px;
     .margin__imagen--frase {
         margin-top: -20px;
     }
+
+    .espacioPreguntas {
+        /*margin-left: 40px;*/
+    }
+
+    .tamanioImagen2 {
+        height:200px;
+        /*background-image: url(../images/FAQ123-modified.png);
+        background-size: contain;*/
+    }
+
+    .margin__preguntas--2 {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .alineacionVideo {
+        justify-content: center;
+    }  
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -265,10 +303,11 @@ $espacioLetras: 24px;
 }
 
 .mainCursos__p--estilosTitulo4 {
-    background-color:rgba(122, 43, 92, 0.336);
+    /*background-color:rgba(122, 43, 92, 0.336);*/
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     /*font-weight: bold;*/
+    text-decoration: underline;
 }
 
 .mainCursos__span--estilos {
@@ -309,12 +348,21 @@ $espacioLetras: 24px;
         color: black;
 }
 
+.mainContacto__p--correoMail2 {
+    font-weight: normal;
+    font-size: 14px;
+    color: blue;
+}
+
 .mainContacto__imagen--formato {
             width:35px;
 }
 
 .mainContacto__imagenFaq--formato {
-        height: 200px;
+        background-image: url(../images/FAQ123-modified.png);
+        background-repeat: no-repeat;
+        /*background-position: left;*/
+        background-size: contain;
 }
 
 .tablaFoto__ul--icono {
